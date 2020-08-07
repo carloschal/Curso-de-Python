@@ -1,0 +1,31 @@
+lanche = ('Hambúguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita')
+carro =('Ferrari', 'Audi', 'Honda', 'Pudim')
+print(lanche[-2])
+print(lanche)
+print(lanche[1:3])
+print(lanche[:2])
+print(lanche[-2:])
+print('-' * 30)
+for comida in lanche:
+    print(f'Eu vou comer {comida}')
+print('-' * 30)
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')
+print('-' * 30)
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')
+print('-' * 30)
+print(sorted(lanche))
+print('-' * 30)
+print(lanche)
+print('-' * 30)
+unir = lanche + carro
+print(unir)
+print(unir.count('Pudim'))
+print(unir.index('Pudim'))
+print('-' * 30)
+pessoa = ('Carlos', 44, 'M', 103.50)
+print(pessoa)
+print('-' * 30)
+#del(pessoa) apaga da memoria a tupla anterior a ele
+print('Comi pra caramba!')

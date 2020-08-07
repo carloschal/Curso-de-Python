@@ -1,0 +1,1 @@
+print('{:^44}'.format('Fim de Jogo'))

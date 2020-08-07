@@ -1,0 +1,171 @@
+Metadata-Version: 2.0
+Name: pytil
+Version: 7.0.0
+Summary: Python 3 utility library
+Home-page: https://github.com/timdiels/pytil
+Author: Tim Diels
+Author-email: timdiels.m@gmail.com
+License: LGPL3
+Description-Content-Type: UNKNOWN
+Keywords: development util library utility utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Android
+Classifier: Operating System :: BeOS
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS 9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 3.1 or Earlier
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 95/98/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows CE
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2003
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Operating System :: Microsoft :: Windows :: Windows Vista
+Classifier: Operating System :: Microsoft :: Windows :: Windows XP
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: OS/2
+Classifier: Operating System :: Other OS
+Classifier: Operating System :: PDA Systems
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: AIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: BSD/OS
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: BSD :: NetBSD
+Classifier: Operating System :: POSIX :: BSD :: OpenBSD
+Classifier: Operating System :: POSIX :: GNU Hurd
+Classifier: Operating System :: POSIX :: HP-UX
+Classifier: Operating System :: POSIX :: IRIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: POSIX :: SCO
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: PalmOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: iOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: Stackless
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Provides-Extra: algorithms
+Requires-Dist: collections-extended (==0.*); extra == 'algorithms'
+Requires-Dist: networkx (==1.*); extra == 'algorithms'
+Requires-Dist: numpy (==1.*); extra == 'algorithms'
+Requires-Dist: scikit-learn (==0.*); extra == 'algorithms'
+Requires-Dist: scipy (==0.*); extra == 'algorithms'
+Requires-Dist: more-itertools (==3.*); extra == 'algorithms'
+Provides-Extra: all
+Requires-Dist: pytest-cov (==2.*); extra == 'all'
+Requires-Dist: networkx (==1.*); extra == 'all'
+Requires-Dist: pyxdg (==0.*); extra == 'all'
+Requires-Dist: plumbum (==1.*); extra == 'all'
+Requires-Dist: numpy (==1.*); extra == 'all'
+Requires-Dist: sqlparse (==0.*); extra == 'all'
+Requires-Dist: coverage-pth (==0.*); extra == 'all'
+Requires-Dist: more-itertools (==3.*); extra == 'all'
+Requires-Dist: pytest-env (==0.*); extra == 'all'
+Requires-Dist: sphinx (==1.*); extra == 'all'
+Requires-Dist: openpyxl (~=2.4); extra == 'all'
+Requires-Dist: pytest-asyncio (==0.*); extra == 'all'
+Requires-Dist: sphinx-rtd-theme (==0.*); extra == 'all'
+Requires-Dist: collections-extended (==0.*); extra == 'all'
+Requires-Dist: lxml; extra == 'all'
+Requires-Dist: pytest (==3.*); extra == 'all'
+Requires-Dist: pytest-catchlog (==1.*); extra == 'all'
+Requires-Dist: pytest-mock (==1.*); extra == 'all'
+Requires-Dist: scipy (==0.*); extra == 'all'
+Requires-Dist: pandas (==0.*); extra == 'all'
+Requires-Dist: formencode; extra == 'all'
+Requires-Dist: scikit-learn (==0.*); extra == 'all'
+Requires-Dist: click (==6.*); extra == 'all'
+Requires-Dist: psutil (==4.*); extra == 'all'
+Requires-Dist: numpydoc (==0.*); extra == 'all'
+Provides-Extra: click
+Requires-Dist: click (==6.*); extra == 'click'
+Provides-Extra: configuration
+Requires-Dist: pyxdg (==0.*); extra == 'configuration'
+Provides-Extra: data_frame
+Requires-Dist: numpy (==1.*); extra == 'data_frame'
+Requires-Dist: pandas (==0.*); extra == 'data_frame'
+Provides-Extra: debug
+Requires-Dist: psutil (==4.*); extra == 'debug'
+Provides-Extra: dev
+Requires-Dist: numpydoc (==0.*); extra == 'dev'
+Requires-Dist: sphinx (==1.*); extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.*); extra == 'dev'
+Requires-Dist: coverage-pth (==0.*); extra == 'dev'
+Requires-Dist: networkx (==1.*); extra == 'dev'
+Requires-Dist: plumbum (==1.*); extra == 'dev'
+Requires-Dist: pytest (==3.*); extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.*); extra == 'dev'
+Requires-Dist: pytest-catchlog (==1.*); extra == 'dev'
+Requires-Dist: pytest-cov (==2.*); extra == 'dev'
+Requires-Dist: pytest-env (==0.*); extra == 'dev'
+Requires-Dist: pytest-mock (==1.*); extra == 'dev'
+Provides-Extra: dict
+Requires-Dist: more-itertools (==3.*); extra == 'dict'
+Provides-Extra: difflib
+Requires-Dist: more-itertools (==3.*); extra == 'difflib'
+Provides-Extra: exceptions
+Provides-Extra: hashlib
+Provides-Extra: iterable
+Requires-Dist: more-itertools (==3.*); extra == 'iterable'
+Provides-Extra: logging
+Provides-Extra: multi_dict
+Provides-Extra: numpy
+Provides-Extra: observable
+Provides-Extra: parse
+Provides-Extra: path
+Requires-Dist: lxml; extra == 'path'
+Requires-Dist: openpyxl (~=2.4); extra == 'path'
+Requires-Dist: more-itertools (==3.*); extra == 'path'
+Requires-Dist: formencode; extra == 'path'
+Provides-Extra: pkg_resources
+Provides-Extra: series
+Requires-Dist: numpy (==1.*); extra == 'series'
+Requires-Dist: pandas (==0.*); extra == 'series'
+Provides-Extra: set
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlparse (==0.*); extra == 'sqlalchemy'
+Provides-Extra: test
+Requires-Dist: openpyxl (~=2.4); extra == 'test'
+Requires-Dist: lxml; extra == 'test'
+Requires-Dist: more-itertools (==3.*); extra == 'test'
+Requires-Dist: formencode; extra == 'test'
+Provides-Extra: various
+Provides-Extra: write
+
+pytil (formerly known as Chicken Turtle Util) is a broad scoped Python utility
+library.
+
+Links
+=====
+- `Documentation <http://pytil.readthedocs.io/en/7.0.0/>`_
+- `PyPI <https://pypi.python.org/pypi/pytil/>`_
+- `GitHub <https://github.com/timdiels/pytil/>`_
+
+See also
+========
+Some other utility libraries:
+
+- `Toolz <https://toolz.readthedocs.io/en/latest/>`_
+- `More Itertools <https://more-itertools.readthedocs.io/en/latest/>`_
+
+
